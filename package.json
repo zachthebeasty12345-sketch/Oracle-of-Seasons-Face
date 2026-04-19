@@ -1,0 +1,42 @@
+{
+  "name": "oracle-of-seasons-face",
+  "author": "Zach",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "pebble": {
+    "uuid": "0a3d2596-43f4-4736-8f94-60129d1e7f7d",
+    "displayName": "Oracle of Seasons",
+    "sdkVersion": "4.3",
+    "targetPlatforms": ["emery"],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": ["health", "configurable"],
+    "messageKeys": [
+      "Use24Hour"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "STILL_BG",
+          "file": "images/still_bg.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "TOP_COVER",
+          "file": "images/top_cover.png"
+        },
+        {
+          "type": "raw",
+          "name": "ANIMATION",
+          "file": "images/animation.png"
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "clay": "^1.4.2"
+  }
+}

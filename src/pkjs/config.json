@@ -1,0 +1,13 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Oracle of Seasons"
+  },
+  {
+    "type": "toggle",
+    "messageKey": "Use24Hour",
+    "label": "24-hour time",
+    "defaultValue": false,
+    "description": "Show hours in 24-hour format (default: 12-hour)"
+  }
+]
